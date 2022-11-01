@@ -10,6 +10,7 @@
 	.product-detail-container .product-detail-image {
 	  width: 350px;
 	  height: 350px;
+	  object-fit: cover;
 	}
 
 	.cart-container {
@@ -32,6 +33,7 @@
 	.product .cart-product-image {
 	  width: 25%;
 	  height: 25%;
+	  object-fit: cover;
 	}
 
 	.buttons .add-to-cart {
