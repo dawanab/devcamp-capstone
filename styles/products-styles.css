@@ -12,6 +12,7 @@
 	transform: scale(1, 1);
 	transition: transform 0.5s ease;
 	color: #A62349;
+	
 }
   
 .product-card:hover {
@@ -23,6 +24,7 @@
 	background-color: #ebebeb;
 	transform: scale(1, 1);
 	transition: transform 0.5s ease;
+	object-fit: cover;
 }
   
 .product-name {
@@ -59,6 +61,8 @@
 	background-color: #ebebeb;
 	width: 400px;
 	height: 400px;
+	object-fit: cover;
+	border: 5px solid #C55300;
 }
   
 .reviews {
