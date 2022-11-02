@@ -4,9 +4,9 @@ import { AiOutlineMinus, AiOutlinePlus, AiFillStar, AiOutlineStar } from 'react-
 import { client, urlFor } from "../../lib/client";
 import { useStateContext } from '../../context/StateContext';
 
-const ProductDetails = ({ product, products }) => {
+const ProductDetails = ({ product }) => {
 	const { image, name, details, price } = product;
-	const [index, setIndex] = useState(0);
+	const [index] = useState(0);
 	const { decQty, incQty, qty, onAdd, setShowCart } = useStateContext();
 
 	const handleBuyNow = () => {
